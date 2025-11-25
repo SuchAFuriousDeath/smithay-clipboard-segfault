@@ -1,0 +1,8 @@
+[package]
+name = "smithay-clipboard-segfault"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winit = "0.30"
+egui-winit = { version = "0.31", features = ["wayland"] }
