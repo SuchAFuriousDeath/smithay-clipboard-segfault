@@ -21,9 +21,9 @@ The window will auto-close after 1 second and segfault on Wayland.
 
 ## Relevant Code
 
-- [smithay-clipboard `Clipboard::new` (unsafe)](https://github.com/Smithay/smithay-clipboard/blob/master/src/lib.rs#L33)
-- [egui-winit `Clipboard::new` (safe wrapper)](https://github.com/emilk/egui/blob/master/crates/egui-winit/src/clipboard.rs#L31)
-- [egui-winit calls unsafe smithay function](https://github.com/emilk/egui/blob/master/crates/egui-winit/src/clipboard.rs#L188)
+- [smithay-clipboard `Clipboard::new` (unsafe)](https://github.com/Smithay/smithay-clipboard/blob/26c2f53f15f6bdc4f41a442d0ae2c2d63bbc617c/src/lib.rs#L34)
+- [egui-winit `Clipboard::new` (safe wrapper)](https://github.com/emilk/egui/blob/8b8595b45b4c283a2a654ada081342079170e3ab/crates/egui-winit/src/clipboard.rs#L31)
+- [egui-winit calls unsafe smithay function](https://github.com/emilk/egui/blob/8b8595b45b4c283a2a654ada081342079170e3ab/crates/egui-winit/src/clipboard.rs#L188)
 
 ## Note on Field Ordering
 
